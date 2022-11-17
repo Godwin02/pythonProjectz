@@ -1,0 +1,11 @@
+a={'car':'mustang','model':2015,'color':'yellow'}
+a.pop("model")
+print(a)
+a.update({'year':2019})
+print(a)
+x=a.copy()
+print(x)
+y=a.keys()
+print(y)
+z=a.values()
+print(z)
